@@ -109,7 +109,7 @@ height:100vh;
 @media screen and (max-width: 768px) {
   .innerBox, .innerBoxreg {
     min-width: auto;
-    width: 90%; 
+    width: 79%; 
   }
 }
 

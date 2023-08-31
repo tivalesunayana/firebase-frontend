@@ -41,7 +41,6 @@ function Registration() {
         password
       );
       await updateProfile(user, { displayName: name });
-      // Store additional user data and preferences in MongoDB
       await axios.post("http://localhost:5000/api/register", {
         userId: user.uid,
         name,
@@ -67,7 +66,7 @@ function Registration() {
           <h2>Registration</h2>
           <input
             type="text"
-            placeholder="Name" // Add the name field
+            placeholder="Name"
             value={name}
             required
             onChange={(e) => setName(e.target.value)}
