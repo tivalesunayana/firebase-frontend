@@ -4,7 +4,7 @@ import React ,{useEffect,useState} from 'react';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Registration from "./Registration";
 import Login from "./Login";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import Dashboard from "./Dashboard"
 import { auth } from "./firebaseConfig";
 function App() {
