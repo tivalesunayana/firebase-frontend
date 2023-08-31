@@ -17,7 +17,8 @@ function App() {
         setUserName(user.displayName);
       } else setUserName("");
     });
-  }, []);
+  }, [userName]);
+
   return (
     <div>
       <BrowserRouter>
