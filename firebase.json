@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "/home/pradip/Desktop/task/frontend",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
